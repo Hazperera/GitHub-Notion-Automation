@@ -1,0 +1,11 @@
+# GitHub API Token
+GITHUB_TOKEN=your_github_api_token_here
+
+# Notion API Token
+NOTION_TOKEN=your_notion_integration_token_here
+
+# Notion Database ID
+NOTION_DATABASE_ID=your_notion_database_id_here
+
+# Organisation Name
+ORGANIZATION_NAME = organisation_name_here
