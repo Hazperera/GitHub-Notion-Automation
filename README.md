@@ -59,6 +59,3 @@ This project automates fetching repository data from GitHub and updating it in a
     ```bash
     poetry run python github_to_notion_sync.py
     ```
-
-
->>>>>>> d89eebd (update structure)
