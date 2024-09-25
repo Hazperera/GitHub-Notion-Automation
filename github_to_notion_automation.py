@@ -29,7 +29,6 @@ INTEGRATION_TOKEN = NOTION_TOKEN
 # save repository data
 OUTPUT_FILE = f'{ORGANIZATION}_github_org_repos.json'
 
-
 #extract existing repositories from Notion
 def get_existing_repositories_from_notion():
     notion = Client(auth=INTEGRATION_TOKEN)
