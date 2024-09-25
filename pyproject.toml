@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "GitHub to Notion Automation Project"
+version = "0.1.0"
+description = "Automates the synchronization of NM GitHub repositories with Notion"
+authors = ["Hazperera <hasani.perera@nethermind.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.32.3"
+notion-client = "^2.2.1"
+python-dotenv = "^1.0.1"
+boto3 = "^1.35.26"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
