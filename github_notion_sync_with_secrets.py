@@ -31,11 +31,12 @@ secrets = get_secret()
 GITHUB_TOKEN = secrets['GITHUB_TOKEN']
 NOTION_TOKEN = secrets['NOTION_TOKEN']
 NOTION_DATABASE_ID = secrets['NOTION_DATABASE_ID']
+ORGANIZATION = secrets['ORGANIZATION']
 
 #GitHub API, URL, headers
 GITHUB_API_URL = "https://api.github.com"
 TOKEN = GITHUB_TOKEN
-ORGANIZATION = "NethermindEth"
+ORGANIZATION = ORGANIZATION
 HEADERS = {
     "Authorization": f"token {TOKEN}",
     "Accept": "application/vnd.github.v3+json"
